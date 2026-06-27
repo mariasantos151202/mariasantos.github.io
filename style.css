@@ -12,6 +12,11 @@ body {
 h1 {
   color: #00D4B1;
   font-size: 48px;
+  text-align: center;
+}
+h2{
+    color:cadetblue;
+    font-size: 36px;
 }
 
 p {
