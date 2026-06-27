@@ -1,49 +1,130 @@
 body {
-  background: linear-gradient(135deg, #0c1a9d, #6c1696, #8e6aa2 );
+  background: linear-gradient(135deg, #0c1a9d, #6c1696, #8e6aa2);
   color: #E8F4FD;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 40px;
+  padding-top: 80px;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #0c1a9d, #6c1696);
+  padding: 16px 40px;
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #00D4B1;
+}
+
+nav a {
+  color: #E8F4FD;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #00D4B1;
+}
+
 h1 {
   color: #ffffff;
   font-size: 48px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2{
-    color:#ffffff;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
-}
-h3{
-    color: white;
-    font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: 400;
-    margin-top: -20px;
 }
 
-  
+h2 {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+}
 
+h3 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: -20px;
+}
 
 p {
   font-size: 18px;
   line-height: 1.7;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+  text-align: center;
 }
 
-hr{
+hr {
   border: none;
-  border-top: 1px solid #300050 ;
+  border-top: 1px solid #00D4B1;
   margin: 40px 0;
-
 }
+
+a {
+  color: #00D4B1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.bioinf-img {
+  width: 100px;
+}
+
+ul {
+  list-style: disc;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+ul li {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.formacao-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.educacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.logo-escola {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.btn-linkedin {
+  display: inline-block;
+  background-color: #00D4B1;
+  color: #0B1929;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
