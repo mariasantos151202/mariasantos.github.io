@@ -1,10 +1,14 @@
 body {
-  background-color: #380d4c;
+  background-color: #0B1929;
   color: #E8F4FD;
   font-family: Arial, sans-serif;
   padding: 40px;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 h1 {
   color: #00D4B1;
   font-size: 48px;
