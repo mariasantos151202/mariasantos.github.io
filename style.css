@@ -13,18 +13,18 @@ h1 {
   color: #00D4B1;
   font-size: 48px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
     color:gainsboro;
     font-size: 36px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 p {
   font-size: 18px;
   line-height: 1.7;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
